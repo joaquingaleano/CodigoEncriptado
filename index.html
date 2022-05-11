@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logo-img" src="./img/Vector.png" alt="Logo de Alura LATAM">
+        </div>
+        <div class="left">
+            <textarea id="textArea" class="textarea-izq" placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+        <div class="right">
+            <img id="muneco" class="imgMuneco" src="./img/Muñeco.png" alt="Muñeco con una lupa">
+            <p class="texto">Ningún mensaje fue encontrado.</p>
+            <textarea id="textoDos" name="name" class="texto2" placeholder="Ingrese el texto que desee encriptar o desencriptar"> </textarea>
+            <button id="copiar" type="button" onclick="copiar()">Copiar</button>   
+        </div>
+        
+        <div class="instrucciones">
+            <p class="parrafo"><img class="exclamacion" src="./img/exclamacion.png" alt="Signo de exclamacion">Solo letras minúsculas y sin acentos</p>
+        </div>
+        
+        <div class="left-button">
+            <button id="botonEncriptar" type="button" class="button-encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="botonDesencriptar" type="button"class="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
